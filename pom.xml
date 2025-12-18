@@ -13,14 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>sandbox-api</name>
     <description>Demo project for Spring Boot</description>
-
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/DanilaFresh/sandbox-api</url>
-        </repository>
-    </distributionManagement>
     <url/>
     <licenses>
         <license/>
@@ -82,5 +74,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/DanilaFresh/sandbox-api</url>
+        </repository>
+    </distributionManagement>
 
 </project>
