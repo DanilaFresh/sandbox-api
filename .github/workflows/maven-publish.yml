@@ -10,6 +10,8 @@ jobs:
     - uses: actions/setup-java@v4
       with:
         java-version: '17'
+        distribution: 'temurin'
+        server-id: github
     - run: mvn clean deploy
 
     - name: Build with Maven
